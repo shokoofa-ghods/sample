@@ -5,6 +5,7 @@ public class SampleClass {
         System.out.println("Sample class was created");
         System.out.println("message created remotely!");
         System.out.println("a new message was added inside the second branch");
+        System.out.println(" second branch change");
     }
 
 }
