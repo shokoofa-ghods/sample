@@ -7,6 +7,7 @@ public class Main {
         public int uniqueWordsCount(String text) {
         String[] words = text.split(" ");
         HashSet<String> uniqueWords = new HashSet<>(Arrays.asList(words));
+        System.out.println("show a message");
         return uniqueWords.size();
     }
 }
