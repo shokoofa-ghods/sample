@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +10,7 @@ public class Main {
         HashSet<String> uniqueWords = new HashSet<>(Arrays.asList(words));
         System.out.println("show a message");
         System.out.println("message was shown");
+        System.out.println("A new message on new branch");
         return uniqueWords.size();
     }
 }
