@@ -8,10 +8,11 @@ public class Main {
         public int uniqueWordsCount(String text) {
         String[] words = text.split(" ");
         HashSet<String> uniqueWords = new HashSet<>(Arrays.asList(words));
-        System.out.println("show a message");
-        System.out.println("message was shown");
-        System.out.println("A new message on new branch");
         return uniqueWords.size();
+    }
+
+    public void method1(){
+        System.out.println("this is method 1");
     }
 }
 
