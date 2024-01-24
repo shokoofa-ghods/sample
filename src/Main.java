@@ -15,7 +15,7 @@ public class Main {
         System.out.println("this is method 1");
     }
     public void method2(){
-        System.out.println("this is method 2");
+        System.out.println("this is method 2 in branch 1");
     }
 }
 
